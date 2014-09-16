@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
         <meta charset="utf-8">
-        <title>Bootply.com - Bootstrap The Firm - One Page Scroller Template</title>
+        <title>Mike Vartanian - Scroller</title>
         <meta name="generator" content="Bootply" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
@@ -169,22 +168,22 @@ h1 {
 /* customize nav style */
 .navbar-custom {
     background-color: #2e2e2e;
-	font-weight:700;
+  font-weight:700;
     text-transform:uppercase;
     border-width:0;
 }
 .navbar-custom  .navbar-nav>li>a {
-	color: #ddd;
+  color: #ddd;
 }
 .navbar-custom  .dropdown-menu li>a:hover {
-	color: #eee;
+  color: #eee;
 }
 .navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
-	background-color: #000;
+  background-color: #000;
 }
 .navbar-custom .navbar-nav>.dropdown>a .caret {
-	border-top-color: #999;
-	border-bottom-color: #999;
+  border-top-color: #999;
+  border-bottom-color: #999;
 }
 
 .navbar-collapse.in { /*3.0.2 bug workaround*/
@@ -192,28 +191,28 @@ h1 {
 }
 
 .navbar-toggle {
-	outline:0;
+  outline:0;
 }
 
 .divider {
-	height:50px;
+  height:50px;
 }
 
 .panel {
-	border-width:0;
+  border-width:0;
 }
 
 @media (max-width: 768px) {
-	header {
-	
-	}
+  header {
+  
+  }
 }
 
 #map-canvas {
-  	width: 100%; 
-  	height: 300px;
-	margin: 0;
-	padding: 15px;
+    width: 100%; 
+    height: 300px;
+  margin: 0;
+  padding: 15px;
 }
 
 .scroll-top {
@@ -240,36 +239,36 @@ section {
 }
 
 .bg-1 {
-	background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
+  background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .bg-2 {
-	background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
+  background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .bg-3 {
-	background: url('http://www.bootply.com/assets/example/bg_blueplane.jpg') no-repeat center center fixed; 
+  background: url('http://www.bootply.com/assets/example/bg_blueplane.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .bg-4 {
-	padding-top:30px;
+  padding-top:30px;
     background-color:#e6e6e6;
 }
 
 .panel .img-responsive {
-	min-height:270px;
+  min-height:270px;
     max-height:270px;
 }
         </style>
@@ -285,7 +284,7 @@ section {
  
 <header class="masthead">
 
-  	<!-- Carousel
+    <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
       <!-- Indicators -->
@@ -293,37 +292,47 @@ section {
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="/assets/example/bg_5.jpg">
+          <img src="../assets/images/MikeandViennaAtFair.jpg">
           <div class="container">
             <div class="carousel-caption">
-              <h2>Architectural Design</h2>
+              <h2>Vienna and I at Lunch...</h2>
               <p></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="/assets/example/bg_suburb.jpg">
+          <img src="../assets/images/MikeAtHooverDam.jpg">
           <div class="container">
             <div class="carousel-caption">
-              <h2>Interior Design</h2>
+              <h2>Everyone needs at least one Dam picture....</h2>
               <p></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="/assets/example/bg_6.jpg">
+          <img src="../assets/images/Santorini_Day5.jpg">
           <div class="container">
             <div class="carousel-caption">
-              <h2>Renovations &amp; Adaptive Re-use</h2>
+              <h2>Santorini</h2>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../assets/images/Egypt_Day8.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h2>Glad I went but will not go again...</h2>
               <p></p>
             </div>
           </div>
         </div>       
       </div><!-- /.carousel-inner -->
-      <div class="logo">The Firm</div> 
+      <div class="logo">Mike Vartanian</div> 
       <!-- Controls -->
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
@@ -349,17 +358,14 @@ section {
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav nav-justified">
-          <li><a href="#section1">Home</a></li>
-          <li><a href="#section2">Profile</a></li>
+          <li><a href="#section1">Who am I?</a></li>
+          <li><a href="#section2">Why take this class?</a></li>
           <li class="dropdown">
             <a href="#section3" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Academic</a></li>
-              <li><a href="#">Commercial</a></li>
-              <li><a href="#">Financial</a></li>
-              <li><a href="#">Interior Design</a></li>
-              <li><a href="#">Medical</a></li>
-              <li><a href="#">Religious</a></li>
+              <li><a href="#">Project 2</a></li>
+              <li><a href="#">Project 3</a></li>
+              <li><a href="#">Project 4</a></li>
             </ul>
           </li>
           <li><a href="#section4">Location</a></li>
@@ -375,11 +381,13 @@ section {
 <div class="container">
   <div class="col-sm-10 col-sm-offset-1">
     <div class="page-header text-center">
-      <h1>Since 1923</h1>
+      <h1>Who am I and What do I do?</h1>
     </div>
     
     <p class="lead text-center"> 
-      The Firm has been providing Professional Design Services in the England area since 1923.
+      Well... Let's see... My name is Mike Vartanian, and I work in business development for the services division of <a href="http://www.csr.com" title="CSR">CSR</a>, a global fabless semiconductor company headquartered in Cambridge, England.<br><br>
+      Although CSR has offered services along with its semiconductor products for quite some time, I am part of a newly formed team looking to commercialize some of these services such as Proximity and Contextual Services as a stand alone product.<br><br>
+      Previous to my role in business development at CSR, I have worked in the corporate strategy and M&amp;A teams within CSR... And previous to that I spent around eight years as an embedded software developer at CSR, Clarity Technologies, and Visteon...  
     </p> 
     
     <hr>
@@ -398,29 +406,18 @@ section {
 <div class="divider" id="section2"></div>
    
 <div class="row">
-  	<div class="col-sm-10 col-sm-offset-1">
-      <h1>Profile</h1>
-      
-      <hr>
-     
-      <p>
-	  The Firm has had a great deal of experience and is highly regarded for its expertise in the areas of design, construction administration, construction management, tight cost control and scheduling.
-	  </p> 
-      <p>
-	  We have been involved in a wide range of building projects, including college facilities, banks, schools, nursing homes, office buildings, churches, industrial buildings and major urban development projects.
-      </p> 
-      <p>
-	  The various projects have included new construction, renovation and adaptive re-use as a way of providing new space for the various clients. Tessier Associates provides in-house programming, master planning, architectural design, construction documentation, project administration and interior design services. Sustainable design, as appropriate for each client, is incorporated in cost effective ways to benefit the long term value of the buildings created by the firm.
-	  </p> 
-      <p>
-	  Together with selected consultants, The Firm provides complete professional services including landscape architecture, structural engineering, electrical and mechanical engineering and site planning.
-	  </p> 
-      
-      <hr>
-      
+    <div class="col-sm-10 col-sm-offset-1">
+      <div class="page-header text-center">
+        <h1>Why am I taking this course?</h1>
+      </div>
+      <p class="lead text-center">
+        I am taking this course to better understand the details of how web applications work to help me in my current position at work as my company's service offerings are basically web applications. This knowledge will be very useful when discussing partnership opportunities with other companies and how all the various web applications work together... <br><br>
+        In addition to work, the inner nerd in me is very interested in the Internet of Things (IoT) and so this class will help me create web based applications for remotely controlling and monitoring things around my house such as my garage door opener, door bell, baby monitor, etc... 
+      </p>
+      <hr>  
       <div class="divider"></div>
       
-  	</div><!--/col-->
+    </div><!--/col-->
 </div><!--/container-->
 
 <div class="divider"></div>
@@ -430,16 +427,24 @@ section {
 </section>
   
 <div class="divider" id="section3"></div>
-  
+
+<div class="row">
+  <div class="col-sm-10 col-sm-offset-1">
+    <h1>Projects</h1>
+  </div>
+</div>
+
 <div class="bg-4">
   <div class="container">
-	<div class="row">
-	   <div class="col-sm-4 col-xs-6">
+  <div class="row">
+     <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Renovations"><img src="//placehold.it/600x400/444/F8F8F8" class="img-responsive"></a></div>
+          <div class="panel-thumbnail"><a href="#" title="Project 2"><img src="../assets/images/php.png" class="img-responsive"></a></div>
           <div class="panel-body">
-            <p>Renovations</p>
+            <p>Project 2</p> 
+            <p><a href="http://p2.mikevartanian.me/">Live URL</a></p>
+            <p><a href="https://github.com/mvartani76/CSCI-E-15-Fall2014-P2">GitHub URL</a></p>
             <p></p>
 
           </div>
@@ -448,10 +453,12 @@ section {
       
       <div class="col-sm-4 col-xs-6">
       
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Academic Institutions"><img src="//placehold.it/600x400/454545/FFF" class="img-responsive"></a></div>
+        <div class="panel panel-default">
+          <div class="panel-thumbnail"><a href="#" title="Project 3"><img src="../assets/images/laravel.jpg" class="img-responsive"></a></div>
           <div class="panel-body">
-            <p>Academic Institutions</p>
+            <p>Project 3</p>
+            <p><a href="http://p3.mikevartanian.me/">Live URL</a></p>
+            <p><a href="https://github.com/mvartani76/CSCI-E-15-Fall2014-P3">GitHub URL</a></p>
             <p></p>
             
           </div>
@@ -460,10 +467,12 @@ section {
       
       <div class="col-sm-4 col-xs-6">
       
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Interiors"><img src="//placehold.it/600x400/555/F2F2F2" class="img-responsive"></a></div>
+        <div class="panel panel-default">
+          <div class="panel-thumbnail"><a href="#" title="Project 4"><img src="../assets/images/final.jpg" class="img-responsive"></a></div>
           <div class="panel-body">
-            <p>Interiors</p>
+            <p>Project 4</p>
+            <p><a href="http://p4.mikevartanian.me/">Live URL</a></p>
+            <p><a href="https://github.com/mvartani76/CSCI-E-15-Fall2014-P4">GitHub URL</a></p>
             <p></p>
             
           </div>
@@ -471,46 +480,8 @@ section {
 
       </div><!--/col--> 
       
-      <div class="col-sm-4 col-xs-6">
       
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="New Construction"><img src="//placehold.it/600x400/555/FFF" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>New Construction</p>
-            <p></p>
-            
-          </div>
-        </div><!--/panel--> 
-
-      </div><!--/col--> 
-      
-      <div class="col-sm-4 col-xs-6">
-      
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Site Planning"><img src="//placehold.it/600x400/555/EEE" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>Site Planning</p>
-            <p></p>
-            
-          </div>
-        </div><!--/panel--> 
-
-      </div><!--/col--> 
-      
-      <div class="col-sm-4 col-xs-6">
-      
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Churches"><img src="//placehold.it/600x400/666/F4F4F4" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>Churches</p>
-            <p></p>
-            
-          </div>
-        </div><!--/panel--> 
-
-      </div><!--/col--> 
-      
-	</div><!--/row-->
+  </div><!--/row-->
   </div><!--/container-->
 </div>
 
@@ -524,7 +495,7 @@ section {
 <div class="row">
   
   <div class="col-sm-10 col-sm-offset-1">
-      <h1>Location</h1>
+      <h1>Where I call home...</h1>
   </div>   
        
   <div id="map-canvas"></div>
@@ -535,16 +506,19 @@ section {
   <div class="col-sm-3 pull-right">
 
       <address>
-        The Firm, Inc.<br>
+        Mike Vartanian<br>
         <span id="map-input">
-        1500 Main Street<br>
-        Springfield, MA 01115</span><br>
-        P: (413) 700-5999
+        3341 Timberlake Drive<br>
+        Commerce Township, MI 48390</span><br>
+        P: (248) 214-4561
       </address>
     
       <address>
-        <strong>Email Us</strong><br>
-        <a href="mailto:#">first.last@example.com</a>
+        <strong>Email Me</strong><br>
+        <ul class="list-unstyled">
+          <li><a href="mailto:#">mike.vartanian@gmail.com</a></li>
+          <li><a href="mailto:#">mikev@beacondisco.com</a></li>
+        </ul>
       </address>          
   </div>
   
@@ -584,7 +558,7 @@ section {
       </div>
       <div class="row form-group">
           <div class="col-xs-10">
-            <button class="btn btn-default pull-right">Contact Us</button>
+            <button class="btn btn-default pull-right">Contact Me</button>
           </div>
       </div>
     
@@ -593,23 +567,24 @@ section {
 </div><!--/row-->
   
 <div class="container">
-  	<div class="col-sm-8 col-sm-offset-2 text-center">
+    <div class="col-sm-8 col-sm-offset-2 text-center">
 
       <ul class="list-inline center-block">
-        <li><a href="http://facebook.com/bootply"><img src="/assets/example/soc_fb.png"></a></li>
-        <li><a href="http://twitter.com/bootply"><img src="/assets/example/soc_tw.png"></a></li>
-        <li><a href="http://google.com/+bootply"><img src="/assets/example/soc_gplus.png"></a></li>
-        <li><a href="http://pinterest.com/in1"><img src="/assets/example/soc_pin.png"></a></li>
+        <li><a href="https://www.facebook.com/mike.vartanian"><img src="../assets/images/facebook.png" height="50" width="50"></a></li>
+        <li><a href="http://twitter.com/bootply"><img src="../assets/images/twitter.png" height="50" width="50"></a></li>
+        <li><a href="https://plus.google.com/+MikeVartanian/posts"><img src="../assets/images/google-plus.png" height="50" width="50"></a></li>
+        <li><a href="http://pinterest.com/in1"><img src="../assets/images/pinterest.png" height="50" width="50"></a></li>
+        <li><a href="https://www.linkedin.com/pub/michael-vartanian/3/906/549/"><img src="../assets/images/linkedin.png" height="50" width="50"></a></li>
       </ul>
       
-  	</div><!--/col-->
+    </div><!--/col-->
 </div><!--/container-->
   
 </div><!--/wrap-->
 
 <div id="footer">
   <div class="container">
-    <p class="text-muted">Copyright ©2014 ACME, Inc.</p>
+    <p class="text-muted">Copyright ©2014 Mike Vartanian</p>
   </div>
 </div>
 
@@ -621,12 +596,12 @@ section {
 <div class="modal" id="myModal" role="dialog">
   <div class="modal-dialog">
   <div class="modal-content">
-	<div class="modal-header">
-		<button class="close" type="button" data-dismiss="modal">×</button>
-		<h3 class="modal-title"></h3>
-	</div>
-	<div class="modal-body">
-		<div id="modalCarousel" class="carousel">
+  <div class="modal-header">
+    <button class="close" type="button" data-dismiss="modal">×</button>
+    <h3 class="modal-title"></h3>
+  </div>
+  <div class="modal-body">
+    <div id="modalCarousel" class="carousel">
  
           <div class="carousel-inner">
            
@@ -636,10 +611,10 @@ section {
           <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
           
         </div>
-	</div>
-	<div class="modal-footer">
-		<button class="btn btn-default" data-dismiss="modal">Close</button>
-	</div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
    </div>
   </div>
 </div>
@@ -670,7 +645,7 @@ $('#nav').affix({
       offset: {
         top: $('header').height()-$('#nav').height()
       }
-});	
+}); 
 
 /* highlight the top nav as scrolling occurs */
 $('body').scrollspy({ target: '#nav' })
@@ -693,13 +668,13 @@ $('.panel .img-responsive').on('load', function() {
   
 }).each(function(i) {
   if(this.complete) {
-  	var item = $('<div class="item"></div>');
+    var item = $('<div class="item"></div>');
     var itemDiv = $(this).parent('a');
     var title = $(this).parent('a').attr("title");
     
     item.attr("title",title);
-  	$(itemDiv.html()).appendTo(item);
-  	item.appendTo('#modalCarousel .carousel-inner'); 
+    $(itemDiv.html()).appendTo(item);
+    item.appendTo('#modalCarousel .carousel-inner'); 
     if (i==0){ // set first item active
      item.addClass('active');
     }
@@ -719,11 +694,11 @@ $('.panel-thumbnail>a').click(function(e){
   
     e.preventDefault();
     var idx = $(this).parents('.panel').parent().index();
-  	var id = parseInt(idx);
-  	
-  	$('#myModal').modal('show'); // show the modal
+    var id = parseInt(idx);
+    
+    $('#myModal').modal('show'); // show the modal
     $('#modalCarousel').carousel(id); // slide carousel to selected
-  	return false;
+    return false;
 });
 
 
@@ -735,16 +710,16 @@ google.maps.visualRefresh = true;
 
 var map;
 function initialize() {
-	var geocoder = new google.maps.Geocoder();
-	var address = $('#map-input').text(); /* change the map-input to your address */
-	var mapOptions = {
-    	zoom: 15,
-    	mapTypeId: google.maps.MapTypeId.ROADMAP,
-     	scrollwheel: false
-	};
-	map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
-	
-  	if (geocoder) {
+  var geocoder = new google.maps.Geocoder();
+  var address = $('#map-input').text(); /* change the map-input to your address */
+  var mapOptions = {
+      zoom: 15,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      scrollwheel: false
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+  
+    if (geocoder) {
       geocoder.geocode( { 'address': address}, function(results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
           if (status != google.maps.GeocoderStatus.ZERO_RESULTS) {
@@ -764,11 +739,11 @@ function initialize() {
             }); 
 
           } else {
-          	alert("No results found");
+            alert("No results found");
           }
         }
       });
-	}
+  }
 }
 google.maps.event.addDomListener(window, 'load', initialize);
 
