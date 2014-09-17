@@ -8,14 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         
         <link href="http://mikevartanian.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <!--[if lt IE 9]>
-          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <link rel="shortcut icon" href="/bootstrap/img/favicon.ico">
-        <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
-
+  
         <link rel="stylesheet" type="text/css" href="P1-StyleSheet.css">
         
         <style type="text/css">
@@ -23,10 +16,8 @@
         </style>
 
     </head>
-    
-    <!-- HTML code from Bootply.com editor -->
-    
-    <body  >
+      
+    <body>
         
         <!-- Wrap all page content here -->
 <div id="wrap">
@@ -55,7 +46,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/MikeandViennaAtFair.jpg">
+          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/MikeandViennaAtFair.jpg" alt="Vienna and I at Lunch...">
           <div class="container">
             <div class="carousel-caption">
               <h2>Vienna and I at Lunch...</h2>
@@ -64,7 +55,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/Santorini_Day5.jpg">
+          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/Santorini_Day5.jpg" alt="Mike in Santorini">
           <div class="container">
             <div class="carousel-caption">
               <h2>Santorini</h2>
@@ -73,7 +64,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/Egypt_Day8.jpg">
+          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/Egypt_Day8.jpg" alt="Mike in Egypt">
           <div class="container">
             <div class="carousel-caption">
               <h2>Glad I went but will not go again...</h2>
@@ -185,7 +176,7 @@
      <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div><a title="Project 2"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/PHP.png" class="img-responsive"></a></div>
+          <div><a title="Project 2"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/PHP.png" class="img-responsive" alt="PHP"></a></div>
           <div class="panel-body">
             <p><strong>Project 2</strong></p> 
             <p><a href="http://p2.mikevartanian.me/">Live URL</a></p>
@@ -199,7 +190,7 @@
       <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div><a title="Project 3"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/laravel.jpg" class="img-responsive"></a></div>
+          <div><a title="Project 3"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/laravel.jpg" class="img-responsive" alt="laravel"></a></div>
           <div class="panel-body">
             <p><strong>Project 3</strong></p>
             <p><a href="http://p3.mikevartanian.me/">Live URL</a></p>
@@ -213,7 +204,7 @@
       <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div><a title="Project 4"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/final.jpg" class="img-responsive"></a></div>
+          <div><a title="Project 4"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/final.jpg" class="img-responsive" alt="final"></a></div>
           <div class="panel-body">
             <p><strong>Project 4</strong></p>
             <p><a href="http://p4.mikevartanian.me/">Live URL</a></p>
@@ -355,11 +346,11 @@
     <div class="col-sm-8 col-sm-offset-2 text-center">
 
       <ul class="list-inline center-block">
-        <li><a href="https://www.facebook.com/mike.vartanian"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/facebook.png" height="50" width="50"></a></li>
-        <li><a href="https://twitter.com/mvartani76"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/twitter.png" height="50" width="50"></a></li>
-        <li><a href="https://plus.google.com/+MikeVartanian/posts"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/google-plus.png" height="50" width="50"></a></li>
-        <li><a href="http://www.pinterest.com/mikevartanian/"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/pinterest.png" height="50" width="50"></a></li>
-        <li><a href="https://www.linkedin.com/pub/michael-vartanian/3/906/549/"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/linkedin.png" height="50" width="50"></a></li>
+        <li><a href="https://www.facebook.com/mike.vartanian"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/facebook.png" height="50" width="50" alt="facebook"></a></li>
+        <li><a href="https://twitter.com/mvartani76"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/twitter.png" height="50" width="50" alt="twitter"></a></li>
+        <li><a href="https://plus.google.com/+MikeVartanian/posts"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/google-plus.png" height="50" width="50" alt="google+"></a></li>
+        <li><a href="http://www.pinterest.com/mikevartanian/"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/pinterest.png" height="50" width="50" alt="pinterest"></a></li>
+        <li><a href="https://www.linkedin.com/pub/michael-vartanian/3/906/549/"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/linkedin.png" height="50" width="50" alt="linkedin"></a></li>
       </ul>
       
     </div><!--/col-->
@@ -407,14 +398,9 @@
 
         
         <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-
         <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
 
-
 <script type='text/javascript' src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
-
-
 
         
         <!-- JavaScript jQuery code from Bootply.com editor  -->
