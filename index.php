@@ -275,7 +275,7 @@ section {
 }
 
 .bg-5 {
-  background: url("../CSCI-E-15-Assets/images/bangkokblurry.jpg") no-repeat center center fixed;
+  background: url("mikevartanian.me/CSCI-E-15-Assets/images/bangkokblurry.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -317,7 +317,7 @@ section {
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="../CSCI-E-15-Assets/images/MikeandViennaAtFair.jpg">
+          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/MikeandViennaAtFair.jpg">
           <div class="container">
             <div class="carousel-caption">
               <h2>Vienna and I at Lunch...</h2>
@@ -326,7 +326,7 @@ section {
           </div>
         </div>
         <div class="item">
-          <img src="../CSCI-E-15-Assets/images/MikeAtHooverDam.jpg">
+          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/MikeAtHooverDam.jpg">
           <div class="container">
             <div class="carousel-caption">
               <h2>Everyone needs at least one Dam picture....</h2>
@@ -335,7 +335,7 @@ section {
           </div>
         </div>
         <div class="item">
-          <img src="../CSCI-E-15-Assets/images/Santorini_Day5.jpg">
+          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/Santorini_Day5.jpg">
           <div class="container">
             <div class="carousel-caption">
               <h2>Santorini</h2>
@@ -344,7 +344,7 @@ section {
           </div>
         </div>
         <div class="item">
-          <img src="../CSCI-E-15-Assets/images/Egypt_Day8.jpg">
+          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/Egypt_Day8.jpg">
           <div class="container">
             <div class="carousel-caption">
               <h2>Glad I went but will not go again...</h2>
