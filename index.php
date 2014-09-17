@@ -275,7 +275,7 @@ section {
 }
 
 .bg-5 {
-  background: url("mikevartanian.me/CSCI-E-15-Assets/images/bangkokblurry.jpg") no-repeat center center fixed;
+  background: url("http://mikevartanian.me/CSCI-E-15-Assets/images/bangkokblurry.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -456,7 +456,7 @@ section {
      <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div><a title="Project 2"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/php.png" class="img-responsive"></a></div>
+          <div><a title="Project 2"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/PHP.png" class="img-responsive"></a></div>
           <div class="panel-body">
             <p><strong>Project 2</strong></p> 
             <p><a href="http://p2.mikevartanian.me/">Live URL</a></p>
