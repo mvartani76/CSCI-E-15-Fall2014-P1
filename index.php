@@ -17,14 +17,6 @@
         <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
 
 
-
-
-
-
-
-
-
-
         <!-- CSS code from Bootply.com editor -->
         
         <style type="text/css">
@@ -128,11 +120,11 @@ h1 {
   font-size:50px;
 }
 
-.logo {
+.logo2 {
   font-size:40px;
   z-index:1200;
   color:#333;
-  position: fixed;
+  position: absolute;
   margin-bottom: 80%;
   margin-top: 20%;
   text-align:center;
@@ -141,6 +133,19 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.logo {
+  font-size:60px;
+  position:absolute;
+  z-index:1200;
+  color:#333;
+  top:70px;
+  text-align:center;
+  text-shadow: 5px 5px 5px #848484;
+  width:100%;
+    -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -317,19 +322,19 @@ section {
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/MikeandViennaAtFair.jpg">
+          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/MikeAtHooverDam.jpg">
           <div class="container">
             <div class="carousel-caption">
-              <h2>Vienna and I at Lunch...</h2>
+              <h2>Everyone needs at least one Dam picture....</h2>
               <p></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/MikeAtHooverDam.jpg">
+          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/MikeandViennaAtFair.jpg">
           <div class="container">
             <div class="carousel-caption">
-              <h2>Everyone needs at least one Dam picture....</h2>
+              <h2>Vienna and I at Lunch...</h2>
               <p></p>
             </div>
           </div>
