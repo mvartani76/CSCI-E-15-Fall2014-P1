@@ -6,8 +6,8 @@
         <title>Mike Vartanian - Scroller</title>
         <meta name="generator" content="Bootply" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
         
+        <link href="http://mikevartanian.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -15,10 +15,6 @@
         <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
-
-
-        <!-- CSS code from Bootply.com editor -->
-
 
         <link rel="stylesheet" type="text/css" href="P1-StyleSheet.css">
         
