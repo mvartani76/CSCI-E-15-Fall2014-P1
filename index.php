@@ -456,7 +456,7 @@ section {
      <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div><a title="Project 2"><img src="../CSCI-E-15-Assets/images/php.png" class="img-responsive"></a></div>
+          <div><a title="Project 2"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/php.png" class="img-responsive"></a></div>
           <div class="panel-body">
             <p><strong>Project 2</strong></p> 
             <p><a href="http://p2.mikevartanian.me/">Live URL</a></p>
@@ -470,7 +470,7 @@ section {
       <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div><a title="Project 3"><img src="../CSCI-E-15-Assets/images/laravel.jpg" class="img-responsive"></a></div>
+          <div><a title="Project 3"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/laravel.jpg" class="img-responsive"></a></div>
           <div class="panel-body">
             <p><strong>Project 3</strong></p>
             <p><a href="http://p3.mikevartanian.me/">Live URL</a></p>
@@ -484,7 +484,7 @@ section {
       <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div><a title="Project 4"><img src="../CSCI-E-15-Assets/images/final.jpg" class="img-responsive"></a></div>
+          <div><a title="Project 4"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/final.jpg" class="img-responsive"></a></div>
           <div class="panel-body">
             <p><strong>Project 4</strong></p>
             <p><a href="http://p4.mikevartanian.me/">Live URL</a></p>
@@ -626,11 +626,11 @@ section {
     <div class="col-sm-8 col-sm-offset-2 text-center">
 
       <ul class="list-inline center-block">
-        <li><a href="https://www.facebook.com/mike.vartanian"><img src="../CSCI-E-15-Assets/images/facebook.png" height="50" width="50"></a></li>
-        <li><a href="https://twitter.com/mvartani76"><img src="../CSCI-E-15-Assets/images/twitter.png" height="50" width="50"></a></li>
-        <li><a href="https://plus.google.com/+MikeVartanian/posts"><img src="../CSCI-E-15-Assets/images/google-plus.png" height="50" width="50"></a></li>
-        <li><a href="http://pinterest.com/in1"><img src="../CSCI-E-15-Assets/images/pinterest.png" height="50" width="50"></a></li>
-        <li><a href="https://www.linkedin.com/pub/michael-vartanian/3/906/549/"><img src="../CSCI-E-15-Assets/images/linkedin.png" height="50" width="50"></a></li>
+        <li><a href="https://www.facebook.com/mike.vartanian"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/facebook.png" height="50" width="50"></a></li>
+        <li><a href="https://twitter.com/mvartani76"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/twitter.png" height="50" width="50"></a></li>
+        <li><a href="https://plus.google.com/+MikeVartanian/posts"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/google-plus.png" height="50" width="50"></a></li>
+        <li><a href="http://pinterest.com/in1"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/pinterest.png" height="50" width="50"></a></li>
+        <li><a href="https://www.linkedin.com/pub/michael-vartanian/3/906/549/"><img src="http://mikevartanian.me/CSCI-E-15-Assets/images/linkedin.png" height="50" width="50"></a></li>
       </ul>
       
     </div><!--/col-->
