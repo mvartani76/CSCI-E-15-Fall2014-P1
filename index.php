@@ -130,12 +130,19 @@ h1 {
 
 .logo {
   font-size:40px;
-  position:absolute;
   z-index:1200;
   color:#333;
-  top:70px;
+  position: fixed;
+  margin-bottom: 80%;
+  margin-top: 20%;
   text-align:center;
-  width:100%;
+  background-color: white;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #nav {
@@ -267,6 +274,20 @@ section {
     background-color:#e6e6e6;
 }
 
+.bg-5 {
+  background: url("../CSCI-E-15-Assets/images/bangkokblurry.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-6 {
+  padding-top 30px;
+
+
+}
+
 .panel .img-responsive {
   min-height:270px;
     max-height:270px;
@@ -296,7 +317,7 @@ section {
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="../assets/images/MikeandViennaAtFair.jpg">
+          <img src="../CSCI-E-15-Assets/images/MikeandViennaAtFair.jpg">
           <div class="container">
             <div class="carousel-caption">
               <h2>Vienna and I at Lunch...</h2>
@@ -305,7 +326,7 @@ section {
           </div>
         </div>
         <div class="item">
-          <img src="../assets/images/MikeAtHooverDam.jpg">
+          <img src="../CSCI-E-15-Assets/images/MikeAtHooverDam.jpg">
           <div class="container">
             <div class="carousel-caption">
               <h2>Everyone needs at least one Dam picture....</h2>
@@ -314,7 +335,7 @@ section {
           </div>
         </div>
         <div class="item">
-          <img src="../assets/images/Santorini_Day5.jpg">
+          <img src="../CSCI-E-15-Assets/images/Santorini_Day5.jpg">
           <div class="container">
             <div class="carousel-caption">
               <h2>Santorini</h2>
@@ -323,7 +344,7 @@ section {
           </div>
         </div>
         <div class="item">
-          <img src="../assets/images/Egypt_Day8.jpg">
+          <img src="../CSCI-E-15-Assets/images/Egypt_Day8.jpg">
           <div class="container">
             <div class="carousel-caption">
               <h2>Glad I went but will not go again...</h2>
@@ -360,16 +381,11 @@ section {
         <ul class="nav navbar-nav nav-justified">
           <li><a href="#section1">Who am I?</a></li>
           <li><a href="#section2">Why take this class?</a></li>
-          <li class="dropdown">
-            <a href="#section3" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Project 2</a></li>
-              <li><a href="#">Project 3</a></li>
-              <li><a href="#">Project 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#section4">Location</a></li>
-          <li><a href="#section5">Contact</a></li>
+          <li><a href="#section3">Projects</a></li>
+          <li><a href="#section4">Experience and Platforms</a></li>
+          <li><a href="#section5">Location</a></li>
+          <li><a href="#section6">More About Me</a></li>
+          <li><a href="#section7">Contact</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div><!--/.container -->
@@ -423,7 +439,7 @@ section {
 <div class="divider"></div>
   
 <section class="bg-3">
-  <div class="col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:20px;background-color:rgba(5,5,5,.8)">Clients &amp; Partners</h2></div>
+  <div class="col-sm-6 col-sm-offset-3 text-center"></div>
 </section>
   
 <div class="divider" id="section3"></div>
@@ -440,9 +456,9 @@ section {
      <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Project 2"><img src="../assets/images/php.png" class="img-responsive"></a></div>
+          <div><a title="Project 2"><img src="../CSCI-E-15-Assets/images/php.png" class="img-responsive"></a></div>
           <div class="panel-body">
-            <p>Project 2</p> 
+            <p><strong>Project 2</strong></p> 
             <p><a href="http://p2.mikevartanian.me/">Live URL</a></p>
             <p><a href="https://github.com/mvartani76/CSCI-E-15-Fall2014-P2">GitHub URL</a></p>
             <p></p>
@@ -454,9 +470,9 @@ section {
       <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Project 3"><img src="../assets/images/laravel.jpg" class="img-responsive"></a></div>
+          <div><a title="Project 3"><img src="../CSCI-E-15-Assets/images/laravel.jpg" class="img-responsive"></a></div>
           <div class="panel-body">
-            <p>Project 3</p>
+            <p><strong>Project 3</strong></p>
             <p><a href="http://p3.mikevartanian.me/">Live URL</a></p>
             <p><a href="https://github.com/mvartani76/CSCI-E-15-Fall2014-P3">GitHub URL</a></p>
             <p></p>
@@ -468,9 +484,9 @@ section {
       <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Project 4"><img src="../assets/images/final.jpg" class="img-responsive"></a></div>
+          <div><a title="Project 4"><img src="../CSCI-E-15-Assets/images/final.jpg" class="img-responsive"></a></div>
           <div class="panel-body">
-            <p>Project 4</p>
+            <p><strong>Project 4</strong></p>
             <p><a href="http://p4.mikevartanian.me/">Live URL</a></p>
             <p><a href="https://github.com/mvartani76/CSCI-E-15-Fall2014-P4">GitHub URL</a></p>
             <p></p>
@@ -485,7 +501,32 @@ section {
   </div><!--/container-->
 </div>
 
-<div class="divider" id="section4"></div>
+<div id="section4"></div>
+  
+<div class="container">
+  <div class="col-sm-10 col-sm-offset-1">
+    <div class="page-header text-center">
+      <h1>Programming Experience and Platforms Used...</h1>
+    </div>
+    
+    <p class="lead text-center"> 
+      As mentioned earlier, in my former life I was an embedded software developer so I have lots of experience (>15 years) with C/C++ and various assembly languages but I subsequently forgot most of it after transferring to the dark side of business post MBA...<br><br>
+      For the past couple years in my Internet of Things pursuit, I have worked with various languages such as HTML/CSS, PHP, Python, Ruby, Perl, Objective-C, etc... but it is primarily an open source copy and paste exercise...<br><br>
+      I currently use many different platforms such as Windows PC, MAC, various Linux distributions on PCs and embedded devices but most of my work is on Windows PC.    
+    </p> 
+    
+    <hr>
+    
+    <div class="divider"></div>
+    
+  </div>
+</div>
+
+<section class="bg-5">
+  <div class="col-sm-6 col-sm-offset-3 text-center"></div>
+</section>
+
+<div class="divider" id="section5"></div>
 
 <div class="row">
   <div class="col-md-8 col-md-offset-1">
@@ -517,24 +558,39 @@ section {
         <strong>Email Me</strong><br>
         <ul class="list-unstyled">
           <li><a href="mailto:#">mike.vartanian@gmail.com</a></li>
+          <li><a href="mailto:#">mike.vartanian@csr.com</a><li>
           <li><a href="mailto:#">mikev@beacondisco.com</a></li>
         </ul>
       </address>          
   </div>
   
 </div><!--/row-->
-  
-<div class="divider" id="section5"></div>  
+
+<div class="divider" id="section6"></div>
+
+<div class="bg-4">
+  <div class="container">
+    <div class="row">
+      <div class="page-header text-center">
+        <h1>What else should you know about me....</h1>
+      </div>
+        <p class="lead text-center">
+          Well... I am a startup and technology enthusiast looking to start a proximity and contextual services platform company... As mentioned before, I am also very interested in IoT and what cool gadgets can be made using open source hardware/software... I am also a session musician in my spare time playing at various venues across Michigan and laying down tracks for top recording artists... And I like to play golf but am no good...Anything else you would like to know, please contact me using the non-working form below...
+        </p>
+    </div>
+  </div>
+</div>
+
+<div class="divider" id="section7"></div>  
 
 <div class="row">
   
   <hr>
   
   <div class="col-sm-9 col-sm-offset-1">
-      
       <div class="row form-group">
         <div class="col-md-12">
-        <h1>Contact Us</h1>        
+        <h1>Contact Me</h1>        
         </div>
         <div class="col-xs-4">
           <input type="text" class="form-control" id="firstName" name="name" placeholder="Your Name">
@@ -570,11 +626,11 @@ section {
     <div class="col-sm-8 col-sm-offset-2 text-center">
 
       <ul class="list-inline center-block">
-        <li><a href="https://www.facebook.com/mike.vartanian"><img src="../assets/images/facebook.png" height="50" width="50"></a></li>
-        <li><a href="http://twitter.com/bootply"><img src="../assets/images/twitter.png" height="50" width="50"></a></li>
-        <li><a href="https://plus.google.com/+MikeVartanian/posts"><img src="../assets/images/google-plus.png" height="50" width="50"></a></li>
-        <li><a href="http://pinterest.com/in1"><img src="../assets/images/pinterest.png" height="50" width="50"></a></li>
-        <li><a href="https://www.linkedin.com/pub/michael-vartanian/3/906/549/"><img src="../assets/images/linkedin.png" height="50" width="50"></a></li>
+        <li><a href="https://www.facebook.com/mike.vartanian"><img src="../CSCI-E-15-Assets/images/facebook.png" height="50" width="50"></a></li>
+        <li><a href="https://twitter.com/mvartani76"><img src="../CSCI-E-15-Assets/images/twitter.png" height="50" width="50"></a></li>
+        <li><a href="https://plus.google.com/+MikeVartanian/posts"><img src="../CSCI-E-15-Assets/images/google-plus.png" height="50" width="50"></a></li>
+        <li><a href="http://pinterest.com/in1"><img src="../CSCI-E-15-Assets/images/pinterest.png" height="50" width="50"></a></li>
+        <li><a href="https://www.linkedin.com/pub/michael-vartanian/3/906/549/"><img src="../CSCI-E-15-Assets/images/linkedin.png" height="50" width="50"></a></li>
       </ul>
       
     </div><!--/col-->
