@@ -136,9 +136,7 @@
 <div class="divider"></div>
   
 <section class="bg-1">
-  <h2>
   <div class="col-sm-6 col-sm-offset-3 text-center"></div>
-</h2>
 </section>
   
 <div class="divider" id="section2"></div>
