@@ -11,6 +11,9 @@ No demonstration required for Project 1
 
 ## Details for Teaching Team
 
+Took the challenge of starting from Bootstrap... Separated the .css from the main .php file... Contact form at bottom is non functioning at this time.
+
+Code validates (HTML5 -- a few warnings but no errors) at http://validator.w3.org/
 
 ## Outside Code
 
