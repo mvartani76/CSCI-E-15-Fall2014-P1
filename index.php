@@ -7,7 +7,7 @@
         <meta name="generator" content="Bootply" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         
-        <link href="http://mikevartanian.me/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
   
         <link rel="stylesheet" type="text/css" href="P1-StyleSheet.css">
         
