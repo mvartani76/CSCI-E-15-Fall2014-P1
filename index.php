@@ -37,7 +37,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/MikeAtHooverDam.jpg">
+          <img src="http://mikevartanian.me/CSCI-E-15-Assets/images/MikeAtHooverDam.jpg" alt="Mike at the Hoover Dam">
           <div class="container">
             <div class="carousel-caption">
               <h2>Everyone needs at least one Dam picture....</h2>
@@ -136,7 +136,9 @@
 <div class="divider"></div>
   
 <section class="bg-1">
+  <h2>
   <div class="col-sm-6 col-sm-offset-3 text-center"></div>
+</h2>
 </section>
   
 <div class="divider" id="section2"></div>
@@ -400,7 +402,7 @@
         <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
 
-<script type='text/javascript' src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
+<script type='text/javascript' src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;extension=.js&amp;output=embed"></script>
 
         
         <!-- JavaScript jQuery code from Bootply.com editor  -->
