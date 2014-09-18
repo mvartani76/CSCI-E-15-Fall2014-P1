@@ -3,11 +3,11 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
         <meta charset="utf-8">
-        <title>Mike Vartanian - Scroller</title>
+        <title>Mike Vartanian</title>
         <meta name="generator" content="Bootply" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         
-        <link href="http://mikevartanian.me/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://mikevartanian.me/bootstrap/css/bootstrap.css" rel="stylesheet">
   
         <link rel="stylesheet" type="text/css" href="P1-StyleSheet.css">
         
